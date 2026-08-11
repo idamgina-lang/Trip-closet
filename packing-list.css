@@ -1,0 +1,29 @@
+.pack-group {
+  padding: 17px 15px 0;
+}
+
+.pack-group:last-child {
+  padding-bottom: 15px;
+}
+
+.pack-group .eyebrow {
+  margin: 0 0 9px 2px;
+  color: #28756a;
+}
+
+.pack-group .pack-item {
+  border: 1px solid var(--line);
+  border-radius: 7px;
+  margin-bottom: 7px;
+  padding: 12px 13px;
+  background: #fffefa;
+}
+
+.pack-group .pack-item:last-child {
+  border-bottom: 1px solid var(--line);
+}
+
+.builder-buttons {
+  margin-top: 16px;
+  padding-top: 2px;
+}
